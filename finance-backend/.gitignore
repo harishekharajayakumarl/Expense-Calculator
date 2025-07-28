@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# SQLite or other local database files
+*.db
+*.sqlite3
+
+# Local environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pydantic models cache (if using schema generation)
+*.schema.json
+
+# FastAPI OpenAPI docs cache (if cached manually)
+openapi.json
+
+# Mac/Linux/Windows OS-specific
+.DS_Store
+Thumbs.db
